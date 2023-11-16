@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --border-radius: 20px;
+  --white-background: #fff;
+}
+html,
+body,
+:root {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  display: inline;
+}
+h3 {
+  margin: 0;
+}
+.app {
+  height: 100%;
+}
+/* .main-page  */
+.main-page {
+  background-color: #eee;
+  height: 100vh;
+}
